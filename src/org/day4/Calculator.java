@@ -25,22 +25,6 @@ public class Calculator {
 			int sub=p-q;
 			System.out.println(sub);
 			break;
-		case "mul":
-			System.out.println("enter the value of s");
-			int s=sc.nextInt();
-			System.out.println("enter the value of t");
-			int t=sc.nextInt();
-			int mul=s*t;
-			System.out.println(mul);
-			break;
-		case "div":
-			System.out.println("enter the value of m");
-			int m=sc.nextInt();
-			System.out.println("enter the value of n");
-			int n=sc.nextInt();
-			int div=m/n;
-			System.out.println(div);
-			break;
 			
 		default:
 			System.out.println("the operation is done");
